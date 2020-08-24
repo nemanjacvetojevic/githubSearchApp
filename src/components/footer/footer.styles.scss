@@ -1,0 +1,51 @@
+.footer {
+    background: url(https://github.com/images/modules/site/heroes/simple-codelines.svg),#2b3137;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    
+    .footer-container {
+        max-width: 1600px;
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #b8b8b8;
+        font-weight: 400;
+    }
+
+    .created {
+
+        span {
+            font-weight: 600;
+            color: #fff;
+        }
+    
+    }
+    
+    .github-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        h1 {
+            display: inline-block;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        svg {
+            margin-right: 1rem;
+        }
+
+        path {
+            fill: #fff
+        }
+    }
+}

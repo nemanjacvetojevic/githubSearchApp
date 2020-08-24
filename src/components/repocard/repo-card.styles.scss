@@ -1,0 +1,47 @@
+.repo-card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(27,31,35,.15);
+    border-radius: 6px;
+    padding: 16px;
+    min-width: 25%;
+    max-width: 100%;
+    min-height: 300px;
+    margin: .5em;
+    position: relative;
+    text-align: left;
+
+    .repo-name {
+       text-decoration: none; 
+       color: #0366d6;
+       font-size: 1.1rem;
+       font-weight: 600;
+       margin: 1rem 0;
+       text-align: left;
+    }
+
+    .repo-desc {
+        text-align: left;
+        color:#858585 ;
+        word-break: break-all;
+        color: #858585;
+        margin-bottom: .5rem;
+    }
+
+    .repo-info {
+        text-align: left;
+        position: absolute;
+        bottom: 1rem;
+        width: 87%;
+        
+    }
+
+    .date-created span {
+        color: #0366d6;
+    }
+
+    .stargazers, .watch-count, .forks-count, .licence, .date-created {
+        text-decoration: none;
+        color: #24292e ;
+    }
+
+}

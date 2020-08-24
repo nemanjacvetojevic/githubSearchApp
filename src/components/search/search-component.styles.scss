@@ -1,0 +1,29 @@
+.search-container {
+    margin: 2em 0 4em 0;
+    
+
+    .search-input {
+        height: 35px;
+        font-size: 1.2em;
+        border-radius: 5px 0 0 5px;
+        border: 1px solid #24292e;
+        padding: 0 7px
+    }
+
+    .search-button {
+        height: 37px;
+        font-size: 1.2em;
+        background-color: #24292e ;
+        color: #fff;
+        border: 1px solid #24292e;
+        padding: 0 1.6em;
+        margin-left: -2px;
+        border-radius: 0 5px 5px 0;
+
+        &:hover {
+            background-color: #28a745;
+            transition: ease all .5s;
+            border-color: #28a745 ;
+        }
+    }
+}

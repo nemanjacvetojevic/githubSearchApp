@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    background-color: #24292e;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 200px;
+
+    a {
+        text-decoration: none;
+    }
+
+    .github-logo {
+        
+        display: flex;
+        align-items: center;
+        svg {
+            margin-right: 1em;
+        }
+        path {
+            fill: #fff;
+        }
+    }
+
+    .github-heading {
+        text-transform: uppercase;
+        font-size:1.5em;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        font-weight: 600;
+        color: #fff;
+        letter-spacing: 1.5px;
+    }
+} 
